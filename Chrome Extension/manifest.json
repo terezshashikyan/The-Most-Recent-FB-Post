@@ -1,0 +1,38 @@
+{
+    "name": "The Most Recent FB Post ",
+    "description": "Embed the most recent FB post on the website",
+    "version": "1.0",
+    "manifest_version": 3,
+
+    
+    "content_scripts":[
+        {
+   "matches": ["https://example.com/*"],
+   "js": ["js/contentScript.js"],
+   "css":["css/contentScript.css"],
+   "run_at": "document_end"
+   }
+],
+    
+"action": {
+    "default_icon": {
+        "16": "images/16.jpg",
+        "32": "images/32.jpg",
+        "48": "images/48.jpg",
+        "128":"images/128.jpg"
+    }
+  },
+
+    "icons": {
+        "16": "images/16.jpg",
+        "32": "images/32.jpg",
+        "48": "images/48.jpg",
+        "128":"images/128.jpg"
+       }
+ 
+    
+}
+
+
+   
+
